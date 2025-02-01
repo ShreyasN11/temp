@@ -4,7 +4,6 @@ import { AnimatePresence } from 'framer-motion';
 import Preloader from '@/comps/Preloader';
 import Landing from '@/comps/Landing';
 import Contact from '@/comps/Contact';
-import Temp from '@/comps/Temp';
 import Act from '@/comps/Act';
 import { Testimonial } from '@/comps/Testimonial';
 
