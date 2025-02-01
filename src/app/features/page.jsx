@@ -34,7 +34,7 @@ const features = [
         Icon: BrainCircuit,
         name: "AI Chatbot",
         description: "Get personalized fitness and diet advice instantly.",
-        href: "#",
+        href: "/chat",
         cta: "Chat now",
         className: "col-span-3 lg:col-span-1",
         background: (

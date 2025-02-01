@@ -16,7 +16,7 @@ export default function page() {
 
   const handleMuscleClick = (muscle) => {
     const routes = {
-      chest: 'features/workout/chest',
+      chest: '/workout/chest',
       abs: '/workout/abs',
       'bicep-left': '/workout/biceps',
       'bicep-right': '/workout/biceps',
