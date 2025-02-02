@@ -14,7 +14,7 @@ const navItems = [
   },
   {
     title: "Activities",
-    href: "/activities",
+    href: "/activity",
   },
   {
     title: "Features",

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Play, Info, ExternalLink, Search, X } from 'lucide-react';
 
-const page = () => {
+const Page = () => {
   const [selectedWorkout, setSelectedWorkout] = useState(null);
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -273,4 +273,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

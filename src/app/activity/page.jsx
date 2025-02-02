@@ -18,7 +18,7 @@ const styles = {
     "absolute bottom-4 left-4 text-2xl font-bold text-white z-10 transition-all duration-300 group-hover:opacity-0",
 }
 
-const page = () => {
+const Page = () => {
   const [activeTab, setActiveTab] = useState("sessions")
   const [communityPosts, setCommunityPosts] = useState([
     {
@@ -239,5 +239,5 @@ const page = () => {
   )
 }
 
-export default page;
+export default Page;
 

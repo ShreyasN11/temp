@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import svgimg from '../../../public/images/svgexport.svg';
 import logimg from '../../../public/images/loginimg.jpg';
 
-export default function page() {
+export default function Page() {
   const [hoveredArea, setHoveredArea] = useState(null);
   const router = useRouter();
 
@@ -28,7 +28,7 @@ export default function page() {
 
   return (
     <div
-      className="flex flex-col items-center w-full min-h-screen bg-gray-900"
+      className="flex flex-col items-center w-full min-h-screen bg-gray-500"
       style={{
         backgroundImage: `url(${logimg.src})`,
         backgroundSize: 'cover',

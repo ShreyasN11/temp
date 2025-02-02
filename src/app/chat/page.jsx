@@ -21,7 +21,7 @@ import {
   FileText
 } from "lucide-react";
 
-const page = () => {
+const Page = () => {
   const [messages, setMessages] = useState([]);
   const [inputMessage, setInputMessage] = useState('');
   const [isTyping, setIsTyping] = useState(false);
@@ -239,4 +239,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

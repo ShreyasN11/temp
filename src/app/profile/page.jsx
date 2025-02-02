@@ -1,10 +1,10 @@
 import Dashboard from '@/comps/Dashboard/Dashboard'
 import React from 'react'
 
-function page() {
+function Page() {
   return (
     <Dashboard />
   )
 }
 
-export default page
+export default Page

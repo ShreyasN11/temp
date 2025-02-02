@@ -43,7 +43,9 @@ export default function Header() {
                 <div className={`${styles.logo} font-bold text-2xl mt-[-10]`}>
                     <p className={styles.copyright}>Ⓖ</p>
                     <div className={styles.name}>
-                        <h1>Gymify</h1>
+                    <Link href="/"> 
+                        <h1>Gymify</h1> 
+                    </Link>
                     </div>
                 </div>
                 <div className={styles.nav}>

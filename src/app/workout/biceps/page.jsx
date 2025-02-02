@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Play, Info, Search, X } from 'lucide-react';
 
-const page = () => {
+const Page = () => {
   const [selectedWorkout, setSelectedWorkout] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -312,4 +312,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
